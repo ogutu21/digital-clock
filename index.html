@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Digital Clock</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <main class="clock-container">
+
+        <!-- Header -->
+
+        <header class="clock-header">
+
+            <div>
+                <h1>Digital Clock</h1>
+
+                <p>Your current time</p>
+            </div>
+
+            <button
+                id="themeButton"
+                title="Toggle theme"
+            >
+                🌙
+            </button>
+
+        </header>
+
+
+        <!-- Clock -->
+
+        <section class="clock-card">
+
+            <div id="time">
+                00:00:00
+            </div>
+
+            <div id="period">
+                AM
+            </div>
+
+        </section>
+
+
+        <!-- Date -->
+
+        <section class="date-card">
+
+            <div id="day">
+                Monday
+            </div>
+
+            <div id="date">
+                January 1, 2026
+            </div>
+
+        </section>
+
+
+        <!-- Controls -->
+
+        <section class="controls">
+
+            <button id="formatButton">
+                Switch to 24-hour
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
